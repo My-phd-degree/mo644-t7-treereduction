@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/matheusdiogenesandrade/Dropbox/PhD/2020.2/Courses/MC970-MO644-Parallel Programming/Tasks/t7-treereduction-matheusdiogenesandrade/src/matmul-serial.c
+stdio.h
+-
+stdlib.h
+-
+omp.h
+-
+
